@@ -24,6 +24,26 @@ public class App {
         doubleLinkedList.deleteLast();
 
         doubleLinkedList.displayLinkedList();
+        doubleLinkedList.insetAfter(30, 999);
+        doubleLinkedList.displayLinkedList();
+
+        doubleLinkedList.insetAfter(80, 100);
+        doubleLinkedList.displayLinkedList();
+
+        doubleLinkedList.insetAfter(50, 200);
+        doubleLinkedList.displayLinkedList();
+
+        doubleLinkedList.deleteKey(999);
+        doubleLinkedList.displayLinkedList();
+
+        doubleLinkedList.deleteKey(80);
+        doubleLinkedList.displayLinkedList();
+
+        doubleLinkedList.deleteKey(50);
+        doubleLinkedList.displayLinkedList();
+
+        doubleLinkedList.deleteKey(100);
+        doubleLinkedList.displayLinkedList();
 
 
     }
